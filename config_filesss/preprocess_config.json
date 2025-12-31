@@ -1,0 +1,10 @@
+{
+    "ocr_model": "EasyOCR",
+    "enable_preprocessing": true,
+    "use_clahe": false,
+    "brightness": 0,
+    "contrast": 1.0,
+    "gamma": 1.0,
+    "fine_rotate": 0,
+    "rotate_preset": 0
+}

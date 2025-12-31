@@ -1,0 +1,10 @@
+{
+    "ocr_model": "Doctr",
+    "enable_preprocessing": true,
+    "use_clahe": true,
+    "brightness": -74,
+    "contrast": 1.74,
+    "gamma": 0.42,
+    "fine_rotate": 0,
+    "rotate_preset": 0
+}

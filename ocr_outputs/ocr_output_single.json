@@ -1,0 +1,31 @@
+{
+    "mode": "single",
+    "engine": "Doctr",
+    "regex": "",
+    "results": [
+        {
+            "image": "single_image",
+            "raw_text": [
+                "*MRP",
+                "R(INCL.OFALL",
+                "TAXES)",
+                "PKD.",
+                "USE",
+                "BY",
+                "BATCH",
+                "No.",
+                "140/-",
+                "22/12/25",
+                "21/12/26",
+                "J1202",
+                "-",
+                "0.56",
+                "per",
+                "a",
+                "01L5004800",
+                "L1"
+            ],
+            "matches": []
+        }
+    ]
+}
