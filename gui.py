@@ -13,12 +13,8 @@ from ocr_engine import DoctrEngine, EasyOCREngine, PPOCREngine
 class OCRGui(QWidget):
     def __init__(self):
         super().__init__()
-
-        # ================= WINDOW =================
         self.setWindowTitle("OCR Evaluation Tool")
         self.showMaximized()
-
-        # ================= STATE =================
         self.engine = DoctrEngine()
         self.BATCH_SIZE = 4
 
@@ -36,9 +32,6 @@ class OCRGui(QWidget):
         self._build_ui()
         self._connect_signals()
 
-    # ==================================================
-    # UI
-    # ==================================================
     def _build_ui(self):
         self.image_label = QLabel("Upload Image or Folder")
         self.image_label.setAlignment(Qt.AlignCenter)

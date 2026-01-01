@@ -16,10 +16,6 @@ try:
 except ImportError:
     PaddleOCR = None
 
-
-# ======================================================
-# BASE ENGINE
-# ======================================================
 class BaseOCREngine:
     def preprocess(self, img, brightness, contrast, gamma, rotate_deg, use_clahe):
         out = img.astype(np.float32)
@@ -48,10 +44,6 @@ class BaseOCREngine:
             out = cv2.warpAffine(out, M, (new_w, new_h))
         return out
 
-
-# ======================================================
-# DOCTR ENGINE
-# ======================================================
 class DoctrEngine(BaseOCREngine):
     def __init__(self):
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -119,10 +111,6 @@ class DoctrEngine(BaseOCREngine):
                         )
         return img
 
-
-# ======================================================
-# EASY OCR ENGINE
-# ======================================================
 class EasyOCREngine(BaseOCREngine):
     def __init__(self):
         self.reader = easyocr.Reader(['en'], gpu=torch.cuda.is_available(), quantize=True)
@@ -162,16 +150,9 @@ class EasyOCREngine(BaseOCREngine):
                 )
         return img
 
-
-# ======================================================
-# PADDLE OCR ENGINE
-# ======================================================
 class PPOCREngine(BaseOCREngine):
     def __init__(self):
-        self.ocr = PaddleOCR(
-            lang="en"
-            
-        )
+        self.ocr = PaddleOCR(lang="en")
 
     def run_batch(self, images):
         return [self.ocr.predict(img) for img in images]
@@ -195,14 +176,10 @@ class PPOCREngine(BaseOCREngine):
         return matches
 
     def draw_matches(self, img, result, regex):
-        
-
         pattern = re.compile(regex, re.IGNORECASE)
 
         for res in result:
             texts = res.get("rec_texts", [])
-
-            # ✅ SAFE selection of boxes
             boxes = res.get("rec_boxes", None)
             if boxes is None:
                 boxes = res.get("dt_polys", None)

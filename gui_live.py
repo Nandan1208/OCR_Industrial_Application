@@ -11,9 +11,6 @@ from camera.mv_camera import MVCamera
 from ocr_engine import DoctrEngine, EasyOCREngine, PPOCREngine
 
 
-# ==================================================
-# CAMERA WORKER
-# ==================================================
 class CameraWorker(QThread):
     frame_ready = pyqtSignal(object)
     log = pyqtSignal(str)
@@ -29,16 +26,13 @@ class CameraWorker(QThread):
             frame = self.camera.capture_frame()
             if frame is not None:
                 self.frame_ready.emit(frame)
-        self.log.emit("⛔ Camera thread stopped")
+        self.log.emit(" Camera thread stopped")
 
     def stop(self):
         self.running = False
         self.wait()
 
 
-# ==================================================
-# OCR WORKER
-# ==================================================
 class OCRWorker(QThread):
     text_ready = pyqtSignal(str)
 
@@ -82,9 +76,6 @@ class OCRWorker(QThread):
         self.wait()
 
 
-# ==================================================
-# OCR LIVE GUI
-# ==================================================
 class OCRLiveGui(QWidget):
     def __init__(self):
         super().__init__()
@@ -108,10 +99,10 @@ class OCRLiveGui(QWidget):
         self.live_image.setAlignment(Qt.AlignCenter)
         self.live_image.setMinimumSize(800, 600)
 
-        self.load_preprocess_btn = QPushButton("📄 Load Preprocess JSON")
-        self.load_camera_cfg_btn = QPushButton("📄 Load Camera Config")
-        self.connect_camera_btn = QPushButton("▶ Connect Camera")
-        self.stop_camera_btn = QPushButton("⛔ Stop Camera")
+        self.load_preprocess_btn = QPushButton(" Load Preprocess JSON")
+        self.load_camera_cfg_btn = QPushButton(" Load Camera Config")
+        self.connect_camera_btn = QPushButton(" Connect Camera")
+        self.stop_camera_btn = QPushButton(" Stop Camera")
         self.stop_camera_btn.setEnabled(False)
 
         self.log_console = QTextEdit()
@@ -138,14 +129,12 @@ class OCRLiveGui(QWidget):
         main.addWidget(self.live_image, 3)
         main.addLayout(right, 1)
 
-    # ==================================================
     def _connect_signals(self):
         self.load_preprocess_btn.clicked.connect(self.load_preprocess_json)
         self.load_camera_cfg_btn.clicked.connect(self.load_camera_cfg)
         self.connect_camera_btn.clicked.connect(self.start_camera)
         self.stop_camera_btn.clicked.connect(self.stop_camera)
 
-    # ==================================================
     def load_preprocess_json(self):
         path, _ = QFileDialog.getOpenFileName(
             self, "Load Preprocess JSON", "", "JSON (*.json)"
@@ -156,7 +145,6 @@ class OCRLiveGui(QWidget):
         with open(path, "r") as f:
             self.preprocess_cfg = json.load(f)
 
-        # ✅ MODEL SELECTION FROM JSON
         model = self.preprocess_cfg.get("ocr_model", "Doctr")
         engine_map = {
             "Doctr": DoctrEngine,
@@ -165,7 +153,7 @@ class OCRLiveGui(QWidget):
         }
         self.ocr_engine = engine_map.get(model, DoctrEngine)()
 
-        self.log_console.append(f"🤖 OCR model loaded from JSON: {model}")
+        self.log_console.append(f" OCR model loaded from JSON: {model}")
 
     # ==================================================
     def load_camera_cfg(self):
@@ -174,12 +162,12 @@ class OCRLiveGui(QWidget):
         )
         if path:
             self.camera_config = path
-            self.log_console.append(f"📄 Camera config loaded: {path}")
+            self.log_console.append(f" Camera config loaded: {path}")
 
     # ==================================================
     def start_camera(self):
         if not self.camera_config or not self.preprocess_cfg:
-            self.log_console.append("❌ Load camera config and preprocess JSON first")
+            self.log_console.append(" Load camera config and preprocess JSON first")
             return
 
         self.camera = MVCamera(self.camera_serial, self.camera_config)
@@ -200,7 +188,6 @@ class OCRLiveGui(QWidget):
         self.connect_camera_btn.setEnabled(False)
         self.stop_camera_btn.setEnabled(True)
 
-    # ==================================================
     def stop_camera(self):
         if self.camera_worker:
             self.camera_worker.stop()
