@@ -1,0 +1,229 @@
+{
+    "mode": "batch",
+    "engine": "EasyOCR",
+    "regex": "",
+    "results": [
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-122744-701-13017479438310.bmp",
+            "raw_text": [],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-122744-996-13017482379623.bmp",
+            "raw_text": [
+                "LOT",
+                "NO",
+                "H2o1",
+                "NFG",
+                "DATE",
+                "20"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-122745-304-13017485472600.bmp",
+            "raw_text": [
+                "3",
+                "DATE",
+                "2025-12-31",
+                "12.26:06",
+                "USE"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-122745-604-13017488473738.bmp",
+            "raw_text": [
+                "6.06",
+                "USE",
+                "BY",
+                "DATE",
+                "2027-12-31"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-122745-905-13017491467913.bmp",
+            "raw_text": [
+                ")ad",
+                "12-31"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-122746-199-13017494420088.bmp",
+            "raw_text": [
+                "6"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123415-257-13021384989169.bmp",
+            "raw_text": [
+                "Do",
+                "Nc"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123415-558-13021388015324.bmp",
+            "raw_text": [
+                "DX",
+                "Nc",
+                "DeJ",
+                "Dp6",
+                "ate",
+                "2023"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123415-860-13021391025106.bmp",
+            "raw_text": [
+                "33*8*8",
+                "48*24",
+                "T",
+                "OSE",
+                "BX",
+                "0e"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123416-157-13021393992603.bmp",
+            "raw_text": [
+                "48a",
+                "45",
+                "PX",
+                "D8re",
+                "20778*31"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123416-456-13021396988346.bmp",
+            "raw_text": [
+                "#je"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123416-762-13021400041784.bmp",
+            "raw_text": [],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123741-855-13023450975131.bmp",
+            "raw_text": [
+                "Lgt",
+                "4S"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123742-152-13023453941460.bmp",
+            "raw_text": [
+                "Lt",
+                "0o",
+                "PX}",
+                "Dc",
+                "Decb",
+                "2028812"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123742-452-13023456951753.bmp",
+            "raw_text": [
+                "70881*3",
+                "4882",
+                "37",
+                "USE",
+                "Bx",
+                "Dr"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123742-746-13023459891260.bmp",
+            "raw_text": [
+                "Z",
+                "86",
+                "8",
+                "DXTf",
+                "2027",
+                "88"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123743-048-13023462908363.bmp",
+            "raw_text": [
+                "En",
+                "Lii"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123743-343-13023465849038.bmp",
+            "raw_text": [
+                "0"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-124749-590-13029528330587.bmp",
+            "raw_text": [
+                "6"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-124749-891-13029531333829.bmp",
+            "raw_text": [
+                "LOT",
+                "NO",
+                "H2O1",
+                "MFG",
+                "D}"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-124750-190-13029534331675.bmp",
+            "raw_text": [
+                "21",
+                "MFG",
+                "DATE",
+                "2025-12-31",
+                "12:47.4"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-124750-494-13029537363253.bmp",
+            "raw_text": [
+                "31",
+                "12.47",
+                "45",
+                "USE",
+                "BY",
+                "DATE",
+                "2027-12"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-124750-787-13029540298206.bmp",
+            "raw_text": [
+                "2027-12-31"
+            ],
+            "matches": []
+        },
+        {
+            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-124751-091-13029543339082.bmp",
+            "raw_text": [],
+            "matches": []
+        }
+    ]
+}
