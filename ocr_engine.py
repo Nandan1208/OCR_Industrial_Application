@@ -16,6 +16,12 @@ try:
 except ImportError:
     PaddleOCR = None
 
+
+try:
+    from pyzbar.pyzbar import decode as zbar_decode
+except ImportError:
+    zbar_decode = None
+    
 class BaseOCREngine:
     def preprocess(self, img, brightness, contrast, gamma, rotate_deg, use_clahe):
         out = img.astype(np.float32)
@@ -202,4 +208,103 @@ class PPOCREngine(BaseOCREngine):
                         2
                     )
 
+        return img
+    
+class BarcodeEngine(BaseOCREngine):
+    def __init__(self):
+        super().__init__()
+
+    # ---------------- NORMALIZATION ----------------
+    def normalize(self, text: str) -> str:
+        return (
+            text.strip()
+            .replace(" ", "")
+            .replace("-", "")
+            .replace("_", "")
+        )
+
+    # ---------------- DECODE ----------------
+    def run_batch(self, images):
+        outputs = []
+
+        for img in images:
+            if img is None:
+                outputs.append([])
+                continue
+
+            # Alpha-safe
+            # if img.ndim == 3 and img.shape[2] == 4:
+            #     img = cv2.cvtColor(img, cv2.COLOR_BGRA2BGR)
+
+            # # Grayscale
+            # if img.ndim == 3:
+            #     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+            # else:
+            #     gray = img
+
+            # Soft binarization
+            # _, gray = cv2.threshold(
+            #     gray, 0, 255,
+            #     cv2.THRESH_BINARY + cv2.THRESH_OTSU
+            # )
+
+            # if np.mean(gray) > 127:
+            #     gray = cv2.bitwise_not(gray)
+
+            outputs.append(zbar_decode(img))
+
+        return outputs
+
+    # ---------------- MATCH LOGIC ----------------
+    def extract_matches(self, result, expected_input: str):
+        matches = []
+        values = []
+
+        if not result:
+            return matches, values
+
+        expected_clean = (
+            self.normalize(expected_input)
+            if expected_input else None
+        )
+
+        pattern = None
+        if expected_clean:
+            pattern = re.compile(
+                re.escape(expected_clean),
+                re.IGNORECASE
+            )
+
+        for b in result:
+            raw = b.data.decode("utf-8", errors="ignore")
+            clean = self.normalize(raw)
+            values.append(clean)
+
+            if pattern and pattern.fullmatch(clean):
+                matches.append(clean)
+
+        return matches, values
+
+    # ---------------- VISUAL FEEDBACK ----------------
+    def draw_matches(self, img, result, expected_input: str):
+        matches, values = self.extract_matches(result, expected_input)
+
+        if matches:
+            text = f"MATCH : {matches[0]}"
+            color = (0, 200, 0)
+        else:
+            shown = values[0] if values else "NO BARCODE"
+            text = f"NOT MATCH : {shown}"
+            color = (0, 0, 255)
+
+        cv2.putText(
+            img,
+            text,
+            (20, 40),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            1.0,
+            color,
+            2,
+            cv2.LINE_AA
+        )
         return img

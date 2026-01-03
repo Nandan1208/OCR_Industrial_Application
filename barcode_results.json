@@ -1,0 +1,238 @@
+[
+    {
+        "image": "barcode_ok - Copy (10).png",
+        "values": [],
+        "match": false
+    },
+    {
+        "image": "barcode_ok - Copy (11).png",
+        "values": [],
+        "match": false
+    },
+    {
+        "image": "barcode_ok - Copy (12).png",
+        "values": [],
+        "match": false
+    },
+    {
+        "image": "barcode_ok - Copy (13).png",
+        "values": [],
+        "match": false
+    },
+    {
+        "image": "barcode_ok - Copy (14).png",
+        "values": [],
+        "match": false
+    },
+    {
+        "image": "barcode_ok - Copy (15).png",
+        "values": [],
+        "match": false
+    },
+    {
+        "image": "barcode_ok - Copy (16).png",
+        "values": [],
+        "match": false
+    },
+    {
+        "image": "barcode_ok - Copy (17).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (18).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (19).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (2).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (20).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (21).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (22).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (23).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (24).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (25).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (3).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (4).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (5).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (6).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (7).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (8).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "barcode_ok - Copy (9).png",
+        "values": [
+            "033500000155444411115"
+        ],
+        "match": true
+    },
+    {
+        "image": "n - Copy (10).png",
+        "values": [
+            "0335000001554444122115"
+        ],
+        "match": false
+    },
+    {
+        "image": "n - Copy (11).png",
+        "values": [],
+        "match": false
+    },
+    {
+        "image": "n - Copy (2).png",
+        "values": [
+            "0335000001554444122115"
+        ],
+        "match": false
+    },
+    {
+        "image": "n - Copy (3).png",
+        "values": [
+            "0335000001554444122115"
+        ],
+        "match": false
+    },
+    {
+        "image": "n - Copy (4).png",
+        "values": [
+            "0335000001554444122115"
+        ],
+        "match": false
+    },
+    {
+        "image": "n - Copy (5).png",
+        "values": [
+            "0335000001554444122115"
+        ],
+        "match": false
+    },
+    {
+        "image": "n - Copy (6).png",
+        "values": [
+            "0335000001554444122115"
+        ],
+        "match": false
+    },
+    {
+        "image": "n - Copy (7).png",
+        "values": [
+            "0335000001554444122115"
+        ],
+        "match": false
+    },
+    {
+        "image": "n - Copy (8).png",
+        "values": [
+            "0335000001554444122115"
+        ],
+        "match": false
+    },
+    {
+        "image": "n - Copy (9).png",
+        "values": [
+            "0335000001554444122115"
+        ],
+        "match": false
+    },
+    {
+        "image": "n - Copy.png",
+        "values": [
+            "0335000001554444122115"
+        ],
+        "match": false
+    },
+    {
+        "image": "n.png",
+        "values": [
+            "0335000001554444122115"
+        ],
+        "match": false
+    }
+]

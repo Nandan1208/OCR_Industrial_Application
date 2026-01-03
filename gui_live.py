@@ -255,9 +255,9 @@ class OCRLiveGui(QWidget):
 
         model = self.preprocess_cfg.get("ocr_model", "Doctr")
         self.ocr_engine = {
-            "Doctr": DoctrEngine,
-            "EasyOCR": EasyOCREngine,
-            "PaddleOCR": PPOCREngine
+            "Model - 1": DoctrEngine,
+            "Model - 2": EasyOCREngine,
+            "Model - 3": PPOCREngine
         }.get(model, DoctrEngine)()
 
         self.log_console.append(f"OCR loaded: {model}")

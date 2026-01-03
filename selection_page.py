@@ -3,15 +3,17 @@ from PyQt5.QtWidgets import (
     QFrame, QPushButton
 )
 from PyQt5.QtCore import Qt, pyqtSignal
-from PyQt5.QtGui import QFont
 
 
-# ---------------- CARD ----------------
+# =====================================================
+# CARD WIDGET
+# =====================================================
 class SelectionCard(QFrame):
     clicked = pyqtSignal()
 
-    def __init__(self, title, description):
+    def __init__(self, title: str, description: str):
         super().__init__()
+
         self.setFixedSize(420, 260)
         self.setCursor(Qt.PointingHandCursor)
         self.setObjectName("SelectionCard")
@@ -33,13 +35,17 @@ class SelectionCard(QFrame):
         layout.addStretch()
 
     def mousePressEvent(self, event):
-        self.clicked.emit()
+        if self.isEnabled():
+            self.clicked.emit()
 
 
-# ---------------- PAGE ----------------
+# =====================================================
+# SELECTION PAGE
+# =====================================================
 class SelectionPage(QWidget):
     config_selected = pyqtSignal()
     live_selected = pyqtSignal()
+    barcode_selected = pyqtSignal()
     logout_clicked = pyqtSignal()
 
     def __init__(self):
@@ -47,7 +53,9 @@ class SelectionPage(QWidget):
         self._apply_styles()
         self._build_ui()
 
-    # ---------------- STYLES ----------------
+    # -------------------------------------------------
+    # STYLES
+    # -------------------------------------------------
     def _apply_styles(self):
         self.setStyleSheet("""
         SelectionPage {
@@ -81,6 +89,11 @@ class SelectionPage(QWidget):
             border: 1px solid #2563eb;
         }
 
+        QFrame#SelectionCard:disabled {
+            background: #f1f5f9;
+            border: 1px solid #e5e7eb;
+        }
+
         QLabel#CardTitle {
             color: #111827;
             font-size: 18px;
@@ -106,23 +119,25 @@ class SelectionPage(QWidget):
         }
         """)
 
-    # ---------------- UI ----------------
+    # -------------------------------------------------
+    # UI
+    # -------------------------------------------------
     def _build_ui(self):
         main_layout = QVBoxLayout(self)
         main_layout.setContentsMargins(40, 30, 40, 30)
         main_layout.setSpacing(24)
 
-        # Header
+        # ---------- TOP BAR ----------
         top_bar = QHBoxLayout()
         top_bar.addStretch()
 
         logout_btn = QPushButton("Logout")
         logout_btn.setObjectName("LogoutButton")
         logout_btn.clicked.connect(self.logout_clicked.emit)
-        logout_btn.setCursor(Qt.PointingHandCursor)
 
         top_bar.addWidget(logout_btn)
 
+        # ---------- HEADER ----------
         header = QLabel("OCR System")
         header.setObjectName("Header")
         header.setAlignment(Qt.AlignCenter)
@@ -131,30 +146,42 @@ class SelectionPage(QWidget):
         subtitle.setObjectName("Subtitle")
         subtitle.setAlignment(Qt.AlignCenter)
 
-        # Cards
+        # ---------- CARDS ----------
         cards_layout = QHBoxLayout()
         cards_layout.setSpacing(40)
         cards_layout.setAlignment(Qt.AlignCenter)
 
-        config_card = SelectionCard(
+        # Store references (IMPORTANT)
+        self.config_card = SelectionCard(
             "OCR Configuration",
             "Configure preprocessing, test images, and run batch OCR with full control."
         )
-        config_card.clicked.connect(self.config_selected.emit)
 
-        live_card = SelectionCard(
+        self.live_card = SelectionCard(
             "OCR Live Feed",
             "Run real-time OCR using live camera streams with instant previews."
         )
-        live_card.clicked.connect(self.live_selected.emit)
 
-        cards_layout.addWidget(config_card)
-        cards_layout.addWidget(live_card)
+        self.barcode_card = SelectionCard(
+            "Barcode Configuration",
+            "Configure barcode rules, test images, and run barcode validation."
+        )
 
+        # Signal connections
+        self.config_card.clicked.connect(self.config_selected.emit)
+        self.live_card.clicked.connect(self.live_selected.emit)
+        self.barcode_card.clicked.connect(self.barcode_selected.emit)
+
+        cards_layout.addWidget(self.config_card)
+        cards_layout.addWidget(self.live_card)
+        cards_layout.addWidget(self.barcode_card)
+
+        # ---------- FOOTER ----------
         footer = QLabel("Select a workflow to continue")
         footer.setObjectName("Footer")
         footer.setAlignment(Qt.AlignCenter)
 
+        # ---------- ASSEMBLE ----------
         main_layout.addLayout(top_bar)
         main_layout.addSpacing(10)
         main_layout.addWidget(header)
@@ -163,3 +190,15 @@ class SelectionPage(QWidget):
         main_layout.addLayout(cards_layout)
         main_layout.addStretch()
         main_layout.addWidget(footer)
+
+    # -------------------------------------------------
+    # CARD CONTROL (USED BY MAINWINDOW)
+    # -------------------------------------------------
+    def set_cards_enabled(self, enabled: bool):
+        """
+        Enable / disable all workflow cards.
+        Called from MainWindow to avoid memory contention.
+        """
+        self.config_card.setEnabled(enabled)
+        self.live_card.setEnabled(enabled)
+        self.barcode_card.setEnabled(enabled)

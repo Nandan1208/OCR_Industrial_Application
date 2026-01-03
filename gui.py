@@ -17,7 +17,7 @@ class OCRGui(QWidget):
     def __init__(self):
         super().__init__()
 
-        self.engine = DoctrEngine()
+        self.engine = EasyOCREngine()
         self.BATCH_SIZE = 4
 
         self.original_image = None
@@ -289,9 +289,9 @@ class OCRGui(QWidget):
             self.folder_images = sorted([
                 os.path.join(folder, f)
                 for f in os.listdir(folder)
-                if f.lower().endswith((".jpg", ".png", ".bmp", ".tif", ".tiff"))
+                if f.lower().endswith((".jpg", ".png", ".bmp",  ".tiff"))
             ])
-            self.output.append(f"📂 Loaded {len(self.folder_images)} images")
+            self.output.append(f" Loaded {len(self.folder_images)} images")
 
     def update_preview(self):
         if self.original_image is None:
@@ -335,7 +335,7 @@ class OCRGui(QWidget):
 
     def start_batch(self):
         if not self.folder_images:
-            self.output.append("❌ No folder loaded")
+            self.output.append(" No folder loaded")
             return
         self.batch_index = 0
         self.batch_running = True
