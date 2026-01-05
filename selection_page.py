@@ -46,6 +46,7 @@ class SelectionPage(QWidget):
     config_selected = pyqtSignal()
     live_selected = pyqtSignal()
     barcode_selected = pyqtSignal()
+    barcode_live_selected = pyqtSignal()
     logout_clicked = pyqtSignal()
 
     def __init__(self):
@@ -138,7 +139,7 @@ class SelectionPage(QWidget):
         top_bar.addWidget(logout_btn)
 
         # ---------- HEADER ----------
-        header = QLabel("OCR System")
+        header = QLabel("Computer vision System")
         header.setObjectName("Header")
         header.setAlignment(Qt.AlignCenter)
 
@@ -166,16 +167,21 @@ class SelectionPage(QWidget):
             "Barcode Configuration",
             "Configure barcode rules, test images, and run barcode validation."
         )
+        self.barcode_live_card = SelectionCard(
+            "Barcode Live Feed",
+            "Run real-time barcode detection using live camera streams with instant previews."
+        )
 
         # Signal connections
         self.config_card.clicked.connect(self.config_selected.emit)
         self.live_card.clicked.connect(self.live_selected.emit)
         self.barcode_card.clicked.connect(self.barcode_selected.emit)
+        self.barcode_live_card.clicked.connect(self.barcode_live_selected.emit)
 
         cards_layout.addWidget(self.config_card)
         cards_layout.addWidget(self.live_card)
         cards_layout.addWidget(self.barcode_card)
-
+        cards_layout.addWidget(self.barcode_live_card)
         # ---------- FOOTER ----------
         footer = QLabel("Select a workflow to continue")
         footer.setObjectName("Footer")
@@ -202,3 +208,4 @@ class SelectionPage(QWidget):
         self.config_card.setEnabled(enabled)
         self.live_card.setEnabled(enabled)
         self.barcode_card.setEnabled(enabled)
+        self.barcode_live_card.setEnabled(enabled)

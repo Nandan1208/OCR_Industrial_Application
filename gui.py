@@ -489,6 +489,6 @@ class OCRGui(QWidget):
         try:
             with open(path, "w", encoding="utf-8") as f:
                 json.dump(payload, f, indent=4, ensure_ascii=False)
-            self.output.append(f"💾 Saved: {path}")
+            self.output.append(f" Saved: {path}")
         except Exception as e:
-            self.output.append(f"❌ Error: {e}")
+            self.output.append(f" Error: {e}")

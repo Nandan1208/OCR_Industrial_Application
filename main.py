@@ -8,13 +8,13 @@ from selection_page import SelectionPage
 from gui import OCRGui
 from gui_live import OCRLiveGui
 from gui_barcode import BarcodeGui
-
+from barcode_live_gui import BarcodeLiveGui
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("OCR Application Suite")
+        self.setWindowTitle("Vision System")
         self.showMaximized()
 
         # ---------------- STACK ----------------
@@ -29,6 +29,7 @@ class MainWindow(QMainWindow):
         self.ocr_page = None
         self.live_page = None
         self.barcode_page = None
+        self.barcode_live_page = None
 
         # ---------------- ADD BASE PAGES ----------------
         self.stack.addWidget(self.login_page)      # index 0
@@ -40,6 +41,7 @@ class MainWindow(QMainWindow):
         self.selection_page.config_selected.connect(self.open_ocr)
         self.selection_page.live_selected.connect(self.open_live)
         self.selection_page.barcode_selected.connect(self.open_barcode)
+        self.selection_page.barcode_live_selected.connect(self.open_barcode_live)
         self.selection_page.logout_clicked.connect(self.logout)
 
         # ---------------- START ----------------
@@ -74,6 +76,14 @@ class MainWindow(QMainWindow):
         self.selection_page.set_cards_enabled(False)
         QTimer.singleShot(0, self._create_barcode)
 
+    def open_barcode(self):
+        self.selection_page.set_cards_enabled(False)
+        QTimer.singleShot(0, self._create_barcode)
+
+    def open_barcode_live(self):
+        self.selection_page.set_cards_enabled(False)
+        QTimer.singleShot(0, self._create_barcode_live)
+
     # =====================================================
     # CREATE MODULES (LAZY LOAD ONCE)
     # =====================================================
@@ -100,6 +110,14 @@ class MainWindow(QMainWindow):
             self.stack.addWidget(self.barcode_page)
 
         self.stack.setCurrentWidget(self.barcode_page)
+
+    def _create_barcode_live(self):
+        if self.barcode_live_page is None:
+            self.barcode_live_page = BarcodeLiveGui()
+            self.barcode_live_page.back_to_selection.connect(self.show_selection)
+            self.stack.addWidget(self.barcode_live_page)
+
+        self.stack.setCurrentWidget(self.barcode_live_page)
 
 
 # =====================================================
