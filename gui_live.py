@@ -1,8 +1,9 @@
 import cv2
 import json
+import re
 from PyQt5.QtWidgets import (
     QWidget, QLabel, QPushButton, QFileDialog,
-    QVBoxLayout, QHBoxLayout, QTextEdit,
+    QVBoxLayout, QHBoxLayout, QTextEdit, QLineEdit,
     QGroupBox, QScrollArea
 )
 from PyQt5.QtGui import QImage, QPixmap
@@ -12,7 +13,9 @@ from camera.mv_camera import MVCamera
 from ocr_engine import DoctrEngine, EasyOCREngine, PPOCREngine
 
 
-# ================= THREADS (UNCHANGED) =================
+# ==================================================
+# CAMERA THREAD
+# ==================================================
 class CameraWorker(QThread):
     frame_ready = pyqtSignal(object)
     log = pyqtSignal(str)
@@ -23,20 +26,23 @@ class CameraWorker(QThread):
         self.running = True
 
     def run(self):
-        self.log.emit("Camera started")
+        self.log.emit("📷 Camera started")
         while self.running:
             frame = self.camera.capture_frame()
             if frame is not None:
                 self.frame_ready.emit(frame)
-        self.log.emit("Camera stopped")
+        self.log.emit("⛔ Camera stopped")
 
     def stop(self):
         self.running = False
         self.wait()
 
 
+# ==================================================
+# OCR THREAD
+# ==================================================
 class OCRWorker(QThread):
-    text_ready = pyqtSignal(str)
+    text_ready = pyqtSignal(list)
 
     def __init__(self, engine, cfg):
         super().__init__()
@@ -52,6 +58,7 @@ class OCRWorker(QThread):
         while self.running:
             if self.frame is None:
                 continue
+
             img = self.frame
             self.frame = None
 
@@ -68,15 +75,16 @@ class OCRWorker(QThread):
 
             result = self.engine.run_batch([img])[0]
             texts = self.engine.extract_all_text(result)
-            if texts:
-                self.text_ready.emit("\n".join(texts))
+            self.text_ready.emit(texts)
 
     def stop(self):
         self.running = False
         self.wait()
 
 
-# ================= GUI =================
+# ==================================================
+# OCR LIVE GUI
+# ==================================================
 class OCRLiveGui(QWidget):
     back_to_selection = pyqtSignal()
 
@@ -86,119 +94,49 @@ class OCRLiveGui(QWidget):
         self.camera = None
         self.camera_worker = None
         self.ocr_worker = None
+
         self.camera_config = None
         self.preprocess_cfg = None
         self.ocr_engine = None
+
         self.camera_serial = "055060223096"
 
-        self._apply_styles()
         self._build_ui()
         self._connect_signals()
 
-    # ---------------- STYLES ----------------
-    def _apply_styles(self):
-        self.setStyleSheet("""
-        OCRLiveGui {
-            background-color: #f5f6f8;
-            font-family: 'Segoe UI';
-            font-size: 10pt;
-            color: #111827;
-        }
-
-        QPushButton {
-            background: #0b2c6b;
-            color: white;
-            border-radius: 8px;
-            padding: 8px 14px;
-            font-weight: 600;
-        }
-
-        QPushButton:hover {
-            background: #093070;
-        }
-
-        QPushButton:disabled {
-            background: #cbd5e1;
-            color: #64748b;
-        }
-
-        QGroupBox {
-            background: white;
-            border: 1px solid #e5e7eb;
-            border-radius: 10px;
-            margin-top: 10px;
-            padding-top: 14px;
-            font-weight: 600;
-        }
-
-        QGroupBox::title {
-            subcontrol-origin: margin;
-            subcontrol-position: top left;
-            padding: 0 8px;
-            color: #374151;
-        }
-
-        QTextEdit {
-            background: #f9fafb;
-            border: 1px solid #e5e7eb;
-            border-radius: 8px;
-            padding: 8px;
-            color: #111827;
-            font-family: Consolas, monospace;
-        }
-        """)
-
-    # ---------------- UI ----------------
+    # ==================================================
+    # UI
+    # ==================================================
     def _build_ui(self):
         root = QHBoxLayout(self)
         root.setContentsMargins(16, 16, 16, 16)
-        root.setSpacing(16)
 
-        # ===== LEFT PANEL =====
-        left_panel = QWidget()
-        left_layout = QVBoxLayout(left_panel)
-        left_layout.setContentsMargins(0, 0, 0, 0)
-        left_layout.setSpacing(12)
-
+        # LEFT
+        left = QVBoxLayout()
         back_btn = QPushButton("Back")
-        back_btn.setFixedWidth(120)
         back_btn.clicked.connect(self.back_to_selection.emit)
 
-        self.live_image = QLabel("Camera live feed")
+        self.live_image = QLabel("Camera Live Feed")
         self.live_image.setAlignment(Qt.AlignCenter)
-        self.live_image.setSizePolicy(
-            self.live_image.sizePolicy().Expanding,
-            self.live_image.sizePolicy().Expanding
+        self.live_image.setMinimumSize(800, 600)
+        self.live_image.setStyleSheet(
+            "background:white; border:2px solid #c7d2fe; border-radius:14px;"
         )
-        self.live_image.setStyleSheet("""
-            background: white;
-            border: 2px solid #c7d2fe;
-            border-radius: 14px;
-            color: #64748b;
-            font-size: 14px;
-        """)
 
-        left_layout.addWidget(back_btn, alignment=Qt.AlignLeft)
-        left_layout.addWidget(self.live_image, stretch=1)
+        left.addWidget(back_btn, alignment=Qt.AlignLeft)
+        left.addWidget(self.live_image)
 
-        # ===== RIGHT PANEL =====
-        right_panel = QWidget()
-        right_panel.setFixedWidth(420)
+        # RIGHT
+        right_scroll = QScrollArea()
+        right_scroll.setWidgetResizable(True)
+        right_scroll.setFixedWidth(420)
 
-        right_layout = QVBoxLayout(right_panel)
-        right_layout.setContentsMargins(0, 0, 0, 0)
-
-        scroll = QScrollArea()
-        scroll.setWidgetResizable(True)
-        scroll.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
-
-        scroll_content = QWidget()
-        scroll_layout = QVBoxLayout(scroll_content)
-        scroll_layout.setSpacing(14)
+        right_widget = QWidget()
+        right = QVBoxLayout(right_widget)
 
         # Camera controls
-        control_group = QGroupBox("Camera Controls")
-        cl = QVBoxLayout(control_group)
+        cam_group = QGroupBox("Camera Controls")
+        cl = QVBoxLayout(cam_group)
         self.load_preprocess_btn = QPushButton("Load Preprocess JSON")
         self.load_camera_cfg_btn = QPushButton("Load Camera Config")
         self.connect_camera_btn = QPushButton("Connect Camera")
@@ -211,56 +149,68 @@ class OCRLiveGui(QWidget):
         cl.addWidget(self.stop_camera_btn)
 
         # Logs
-        log_group = QGroupBox("System Logs")
+        log_group = QGroupBox("Logs")
         ll = QVBoxLayout(log_group)
         self.log_console = QTextEdit()
         self.log_console.setReadOnly(True)
-        self.log_console.setFixedHeight(140)
+        self.log_console.setFixedHeight(130)
         ll.addWidget(self.log_console)
 
-        # OCR output
+        # OCR Output
         ocr_group = QGroupBox("OCR Output")
         ol = QVBoxLayout(ocr_group)
         self.ocr_output = QTextEdit()
         self.ocr_output.setReadOnly(True)
         ol.addWidget(self.ocr_output)
 
-        # Assemble right
-        scroll_layout.addWidget(control_group)
-        scroll_layout.addWidget(log_group)
-        scroll_layout.addWidget(ocr_group)
-        scroll_layout.addStretch()
+        # Count Status
+        count_group = QGroupBox("OCR Count Status")
+        cll = QVBoxLayout(count_group)
+        self.char_count_input = QLineEdit()
+        self.char_count_input.setPlaceholderText("Expected character count")
+        self.count_status_label = QLabel("Status: —")
+        cll.addWidget(self.char_count_input)
+        cll.addWidget(self.count_status_label)
 
-        scroll.setWidget(scroll_content)
-        right_layout.addWidget(scroll)
+        right.addWidget(cam_group)
+        right.addWidget(log_group)
+        right.addWidget(ocr_group)
+        right.addWidget(count_group)
+        right.addStretch()
 
-        # ===== FINAL =====
-        root.addWidget(left_panel, stretch=3)
-        root.addWidget(right_panel, stretch=1)
+        right_scroll.setWidget(right_widget)
 
-    # ---------------- SIGNALS ----------------
+        root.addLayout(left, 3)
+        root.addWidget(right_scroll, 1)
+
+    # ==================================================
+    # SIGNALS
+    # ==================================================
     def _connect_signals(self):
         self.load_preprocess_btn.clicked.connect(self.load_preprocess_json)
         self.load_camera_cfg_btn.clicked.connect(self.load_camera_cfg)
         self.connect_camera_btn.clicked.connect(self.start_camera)
         self.stop_camera_btn.clicked.connect(self.stop_camera)
 
-    # ---------------- LOGIC (UNCHANGED) ----------------
+    # ==================================================
+    # CONFIG LOAD
+    # ==================================================
     def load_preprocess_json(self):
         path, _ = QFileDialog.getOpenFileName(self, "Load Preprocess JSON", "", "JSON (*.json)")
         if not path:
             return
+
         with open(path, "r") as f:
             self.preprocess_cfg = json.load(f)
 
-        model = self.preprocess_cfg.get("ocr_model", "Doctr")
+        model = self.preprocess_cfg.get("ocr_model", "Model - 1")
         self.ocr_engine = {
             "Model - 1": DoctrEngine,
             "Model - 2": EasyOCREngine,
             "Model - 3": PPOCREngine
         }.get(model, DoctrEngine)()
 
-        self.log_console.append(f"OCR loaded: {model}")
+        self.log_console.append(f"OCR model loaded: {model}")
 
     def load_camera_cfg(self):
         path, _ = QFileDialog.getOpenFileName(self, "Load Camera Config", "", "Config (*.cfg *.ini *.config)")
@@ -268,9 +218,12 @@ class OCRLiveGui(QWidget):
             self.camera_config = path
             self.log_console.append("Camera config loaded")
 
+    # ==================================================
+    # CAMERA CONTROL
+    # ==================================================
     def start_camera(self):
         if not self.camera_config or not self.preprocess_cfg:
-            self.log_console.append("Load config first")
+            self.log_console.append("Load preprocess JSON & camera config first")
             return
 
         self.camera = MVCamera(self.camera_serial, self.camera_config)
@@ -285,7 +238,7 @@ class OCRLiveGui(QWidget):
         self.camera_worker.start()
 
         self.ocr_worker = OCRWorker(self.ocr_engine, self.preprocess_cfg)
-        self.ocr_worker.text_ready.connect(self.ocr_output.append)
+        self.ocr_worker.text_ready.connect(self.handle_ocr_result)
         self.ocr_worker.start()
 
         self.connect_camera_btn.setEnabled(False)
@@ -303,8 +256,52 @@ class OCRLiveGui(QWidget):
 
         self.connect_camera_btn.setEnabled(True)
         self.stop_camera_btn.setEnabled(False)
-        self.log_console.append("Stopped")
+        self.log_console.append("Camera stopped")
 
+    # ==================================================
+    # OCR RESULT HANDLING
+    # ==================================================
+    def handle_ocr_result(self, texts):
+        self.ocr_output.clear()
+        self.ocr_output.append("\n".join(texts))
+
+        status = self.validate_char_count(texts)
+        if status:
+            ok, actual, expected = status
+            if ok:
+                self.count_status_label.setText(f"COUNT OK ({actual}/{expected})")
+                self.count_status_label.setStyleSheet("color: green; font-weight:600;")
+            else:
+                self.count_status_label.setText(f"COUNT MISMATCH ({actual}/{expected})")
+                self.count_status_label.setStyleSheet("color: red; font-weight:600;")
+        else:
+            self.count_status_label.setText("Status: —")
+
+    # ==================================================
+    # COUNT LOGIC
+    # ==================================================
+    def validate_char_count(self, texts):
+        val = self.char_count_input.text().strip()
+        if not val.isdigit():
+            return None
+
+        expected = int(val)
+
+        joined = " ".join(texts)
+
+        tokens = [
+            t for t in joined.split()
+            if not (len(t) == 1 and t.isalpha())
+        ]
+
+        cleaned = re.sub(r'[^A-Za-z0-9]', '', "".join(tokens))
+        actual = len(cleaned)
+
+        return actual <= expected, actual, expected
+
+    # ==================================================
+    # DISPLAY FRAME
+    # ==================================================
     def update_frame(self, frame):
         rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         h, w, _ = rgb.shape
