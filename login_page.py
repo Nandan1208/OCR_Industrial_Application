@@ -112,9 +112,9 @@ class LoginPage(QWidget):
         layout.setContentsMargins(40, 40, 40, 40)
         layout.setSpacing(18)
 
-        logo = QLabel("Your logo")
-        logo.setObjectName("Logo")
-        logo.setAlignment(Qt.AlignCenter)
+        # logo = QLabel("Your logo")
+        # logo.setObjectName("Logo")
+        # logo.setAlignment(Qt.AlignCenter)
 
         title = QLabel("Login")
         title.setObjectName("Title")
@@ -144,7 +144,7 @@ class LoginPage(QWidget):
         footer.setObjectName("Footer")
         footer.setAlignment(Qt.AlignCenter)
 
-        layout.addWidget(logo)
+        # layout.addWidget(logo)
         layout.addSpacing(10)
         layout.addWidget(title)
         layout.addWidget(subtitle)

@@ -1,228 +1,4543 @@
 {
     "mode": "batch",
-    "engine": "EasyOCR",
+    "engine": "Model - 3",
     "regex": "",
     "results": [
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-122744-701-13017479438310.bmp",
-            "raw_text": [],
-            "matches": []
-        },
-        {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-122744-996-13017482379623.bmp",
+            "image": "IMG_20260103142239.tiff",
             "raw_text": [
-                "LOT",
-                "NO",
-                "H2o1",
-                "NFG",
-                "DATE",
-                "20"
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY BATCH NO.",
+                "02/01/27 J12B1",
+                "160/-03/01/26",
+                "7 0.64 per g 01A6004900 L1"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-122745-304-13017485472600.bmp",
+            "image": "IMG_20260103142924.tiff",
             "raw_text": [
-                "3",
-                "DATE",
-                "2025-12-31",
-                "12.26:06",
-                "USE"
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004800 L1"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-122745-604-13017488473738.bmp",
+            "image": "IMG_20260103143005.tiff",
             "raw_text": [
-                "6.06",
-                "USE",
-                "BY",
-                "DATE",
-                "2027-12-31"
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-122745-905-13017491467913.bmp",
+            "image": "IMG_20260103143017.tiff",
             "raw_text": [
-                ")ad",
-                "12-31"
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004800 LI"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-122746-199-13017494420088.bmp",
+            "image": "IMG_20260103143021.tiff",
             "raw_text": [
-                "6"
+                "MRP? (INCL. OFALL TAXES) PKD. USE BY BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 LI"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123415-257-13021384989169.bmp",
+            "image": "IMG_20260103143026.tiff",
             "raw_text": [
-                "Do",
-                "Nc"
+                "PKD.",
+                "MRP ? (INCL. OF ALL TAXES)",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per\" g 01A6004900 L1"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123415-558-13021388015324.bmp",
+            "image": "IMG_20260103143030.tiff",
             "raw_text": [
-                "DX",
-                "Nc",
-                "DeJ",
-                "Dp6",
-                "ate",
-                "2023"
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004800 LI"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123415-860-13021391025106.bmp",
+            "image": "IMG_20260103143035.tiff", #
             "raw_text": [
-                "33*8*8",
-                "48*24",
-                "T",
-                "OSE",
-                "BX",
-                "0e"
+                "7 0.64 per g 01A600480",
+                "160/- 03/01/26 02/01/27 J1",
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO."
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123416-157-13021393992603.bmp",
+            "image": "IMG_20260103143039.tiff",
             "raw_text": [
-                "48a",
-                "45",
-                "PX",
-                "D8re",
-                "20778*31"
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 L1"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123416-456-13021396988346.bmp",
+            "image": "IMG_20260103143043.tiff",
             "raw_text": [
-                "#je"
+                "MRP ? (INCL. OF ALL TAXES)PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                " 064 per g 01A6004800 L1"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123416-762-13021400041784.bmp",
-            "raw_text": [],
-            "matches": []
-        },
-        {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123741-855-13023450975131.bmp",
+            "image": "IMG_20260103143048.tiff",
             "raw_text": [
-                "Lgt",
-                "4S"
+                "MRP ? (INCL. OF ALL TAXES)PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123742-152-13023453941460.bmp",
+            "image": "IMG_20260103143052.tiff",
             "raw_text": [
-                "Lt",
-                "0o",
-                "PX}",
-                "Dc",
-                "Decb",
-                "2028812"
+                "BATCH NO.",
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "160/- (3/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123742-452-13023456951753.bmp",
+            "image": "IMG_20260103143057.tiff",
             "raw_text": [
-                "70881*3",
-                "4882",
-                "37",
-                "USE",
-                "Bx",
-                "Dr"
+                "MRP ? (INCL. OF ALL TAXES)PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123742-746-13023459891260.bmp",
+            "image": "IMG_20260103143101.tiff",
             "raw_text": [
-                "Z",
-                "86",
-                "8",
-                "DXTf",
-                "2027",
-                "88"
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123743-048-13023462908363.bmp",
+            "image": "IMG_20260103143106.tiff",
             "raw_text": [
-                "En",
-                "Lii"
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B1",
+                "7 064 per g 01A6004800 LI"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-123743-343-13023465849038.bmp",
+            "image": "IMG_20260103143110.tiff",
             "raw_text": [
-                "0"
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-124749-590-13029528330587.bmp",
+            "image": "IMG_20260103143114.tiff",
             "raw_text": [
-                "6"
+                "MRP? (INCL. OFALL TAXES) PKD. USE BY BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per q 01A6004800 L1"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-124749-891-13029531333829.bmp",
+            "image": "IMG_20260103143119.tiff",
             "raw_text": [
-                "LOT",
-                "NO",
-                "H2O1",
-                "MFG",
-                "D}"
+                "MRP ? (INCL. OF ALL TAXES)",
+                ")PKD. USEBY BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004800 L1"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-124750-190-13029534331675.bmp",
+            "image": "IMG_20260103143123.tiff",
             "raw_text": [
-                "21",
-                "MFG",
-                "DATE",
-                "2025-12-31",
-                "12:47.4"
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-124750-494-13029537363253.bmp",
+            "image": "IMG_20260103143128.tiff",
             "raw_text": [
-                "31",
-                "12.47",
-                "45",
-                "USE",
-                "BY",
-                "DATE",
-                "2027-12"
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004900 LI"
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-124750-787-13029540298206.bmp",
+            "image": "IMG_20260103143132.tiff",
             "raw_text": [
-                "2027-12-31"
+                "7 0.64 per g 01A6004900 ",
+                "160/- 03/01/26 02/01/27 J1281",
+                "MRP? (INCL. OF ALLTAXES) PD. USE Y",
+                "BATCH NO."
             ],
             "matches": []
         },
         {
-            "image": "HT-GEF401GC-T1-C-Snapshot-20251231-124751-091-13029543339082.bmp",
-            "raw_text": [],
+            "image": "IMG_20260103143136.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143145.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143151.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143204.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143209.tiff",
+            "raw_text": [
+                "MRP P (INCL. OF ALL TAXES)",
+                "PKD. USE BY BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143213.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143217.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- (3/01/26 02/01/27 J1281",
+                "7 0.64 per g. 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143222.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143226.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143231.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per q 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143235.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143239.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143244.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY BATCH NO.",
+                "160/- (3/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143248.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143253.tiff",
+            "raw_text": [
+                "7 0.64 per g 01A6004800 LI",
+                "160/- 03/01/26 02/01/27 J1281",
+                "BATCH NO.",
+                "PKD. USE BY",
+                "MRP ? (INCL. OF ALL TAXES)"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143257.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143301.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per q 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143309.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USEBY BATCH NO.",
+                "160/- 03/01/26 ",
+                "02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143319.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143323.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143337.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143928.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103143933.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144002.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144010.tiff",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144029.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144034.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144039.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144043.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144048.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144052.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144058.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144102.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144107.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144123.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144127.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144132.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1201",
+                "7 0.64 per g 01A6004800"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144136.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 83/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144141.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144145.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 83/01/26 02/01/27 J1281",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144149.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 0/01/26 02/01/27 J1281",
+                "7 0.64 per 9 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144154.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144158.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144216.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144220.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 0/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144224.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144229.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "3 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144233.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B1",
+                " 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144238.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144242.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144247.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144251.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144255.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144300.jpg",
+            "raw_text": [
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A600490 L1",
+                "USE BY",
+                "PKD.",
+                "MRP ? (INCL. OF ALL TAXES)"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144304.jpg",
+            "raw_text": [
+                "MRP Z (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144314.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144319.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "P 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144323.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144328.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "3 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144332.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144336.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144341.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144345.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144350.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "7 064 per g 01A",
+                "160/- 03/01/26 02",
+                "PKD.",
+                "USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144354.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144358.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (3/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144403.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144407.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144412.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144416.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1201",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144420.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144428.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144504.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144508.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144513.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144517.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144522.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J1281",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144526.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J12B1",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144532.jpg",
+            "raw_text": [
+                "MRP.7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144536.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- (3/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144541.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144545.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144551.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY BATCH NO.",
+                "160/- 03/01/26",
+                "6 02/01/27 J12B1",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144555.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/-03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144601.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144606.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "R 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144611.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144617.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 a64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144625.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144629.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144634.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144638.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144642.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144647.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144651.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144656.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144700.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "3 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144705.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144710.jpg",
+            "raw_text": [
+                "MRPP (INCL. OFALLTAXE) PD. UE Y",
+                "7 0.64 per g 01A6004800",
+                "160/- 03/01/26 02/01/27",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144716.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144726.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144731.jpg",
+            "raw_text": [
+                "7 0.64 per q 01A6004800",
+                "160/- (03/01/26 02/01/27",
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144735.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144740.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144744.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "P 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144749.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144915.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B1",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144919.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144924.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 62/01/27 J1281",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144928.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144933.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144937.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103144941.jpg",
+            "raw_text": [
+                "PKD. USE BY",
+                "BATCH NO.",
+                "MRP ? (INCL. OF ALL TAXES)",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145011.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 0/01/26",
+                "02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145018.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145022.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "6 02/01/27 J1281",
+                "P 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145031.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145036.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145041.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145056.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145101.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145105.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145109.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145114.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J12B1",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145118.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145124.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "4 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145128.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145133.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/-03/01/26",
+                "02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145137.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145145.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145153.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145158.jpg",
+            "raw_text": [
+                "7 0.64 per g 01A6004800 ",
+                "160/- 03/01/26 02/01/27 J1281",
+                "MRP? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145208.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 064 per g 01A6004900 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145212.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                " 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145217.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145221.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145226.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)  PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1281",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145231.jpg",
+            "raw_text": [
+                "7 064 per g 01A6004",
+                "160/- 03/01/26 02/01/27",
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145242.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145257.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "7 0.64 per g 01A6004800",
+                "160/- (3/01/26 02/01/27",
+                "PKD.",
+                "USE BY",
+                "JI2B1",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145319.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145323.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160- 0/01/26 02/0/27 J1281",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145328.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145332.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B1",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145336.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USEBY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145341.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145345.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "T 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145358.jpg",
+            "raw_text": [
+                "7 064 per g 01AGE",
+                "MRP ? (INCL. OF ALL TAXES)",
+                "160/- (3/01/26 02/01",
+                "PKD. USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145407.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (3/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145414.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145420.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "P 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145425.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J1281",
+                ".",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145432.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145438.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145445.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145451.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "7 064 per g 01Ae",
+                "160/- 03/01/26 02",
+                "PKD.",
+                "USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145456.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145501.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145506.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145510.jpg",
+            "raw_text": [
+                "MRP & (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145515.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145519.jpg",
+            "raw_text": [
+                "MRP F (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 0/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145523.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145528.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145532.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145537.jpg",
+            "raw_text": [
+                "MRP P (INCL. OF ALL TAXES)",
+                "7 064 per g 01A6",
+                "160/- (03/01/26 02/0",
+                "PKD. USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145541.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 83/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145545.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145550.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160- 0/01/26 02/01/27 J1281",
+                "7 0.64 per q 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145554.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145559.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 83/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145603.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145608.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "7064 per 9",
+                "160/- 03/01/26",
+                "PKD.",
+                "USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145612.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145616.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (3/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145621.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160- 0/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145625.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145630.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1281",
+                "7 0.64 per q 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145634.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 83/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145638.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "16N- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145643.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (0/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145705.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "7 064 per q 01A6",
+                "160/-",
+                "03/01/26 021",
+                "PKD. USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145709.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145714.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145718.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "7 064 per q 01A6",
+                "160/- 03/01/26 02/0",
+                "PKD.",
+                "USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145722.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 83/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145728.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1281",
+                "7 064 per g 01A6004800 L"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145734.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LL"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145740.jpg",
+            "raw_text": [
+                "7 0.64 per g 01A60",
+                "160/- (3/01/26 02/01",
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145746.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 0/01/26 62/01/27 J1281",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145755.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1281",
+                " 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145759.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF. ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145902.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145906.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145911.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145915.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145920.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145924.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145929.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B1",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145933.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "7 0.64 per g 01A600",
+                "160/- 03/01/26 02/01",
+                "PKD.",
+                "C",
+                "USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145937.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145942.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145946.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1281",
+                "7 064 per 'g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103145951.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "1064 per 9",
+                "foser",
+                "69-",
+                "00",
+                "PKD.",
+                "USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150004.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150008.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150014.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150018.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150023.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150027.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150032.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160- 0/0/26 02/0/27 J281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150036.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150040.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150045.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150051.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1",
+                "2"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150055.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150102.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A600480 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150107.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150111.jpg",
+            "raw_text": [
+                "MRP F (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 0/01/26 02/01/27 J1281",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150116.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1281",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150122.jpg",
+            "raw_text": [
+                "L HOS",
+                "T8ZIP ZZ/10/20 9Z/10/80 -7091",
+                "7 0.64 per g 01A6004800 L1",
+                "PKD. USE BY",
+                "MRP P (INCL. OF ALL TAXES)"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150127.jpg",
+            "raw_text": [
+                "PKD. USE BY",
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150134.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150144.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1282",
+                "7 0.64 per q 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150149.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150154.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150216.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150220.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150225.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150231.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150235.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150239.jpg",
+            "raw_text": [
+                "MRP F (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150245.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150250.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150254.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150258.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150303.jpg",
+            "raw_text": [
+                "MRP F (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "P 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150307.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150312.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160- 0/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150316.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150320.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L4"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150325.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150329.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/0/27 J1202",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150334.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "T 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150338.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160-0/01/26",
+                "02/0/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150342.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 0/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150347.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "6 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150351.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150356.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150400.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150405.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150409.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (0/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150413.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per 9",
+                "0A6004000 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150418.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1202",
+                "T 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150422.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150427.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150431.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150435.jpg",
+            "raw_text": [
+                "7 0.64 per g 01A6004800 L1",
+                "160/- 03/01/26 02/01/27 J1282",
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150440.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150444.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150449.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "3 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150453.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150457.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 0/01/26",
+                "02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150502.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "3 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150506.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/-03/01/26",
+                "02/01/27 J12B2",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150513.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150519.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150524.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "7 0.64 per g 01A6004800",
+                "160/- 03/01/26 02/01/27 J12B2",
+                "PKD.USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150528.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150533.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150537.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150542.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150546.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150555.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150600.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J1282",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150605.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150609.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004900 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150614.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO:",
+                "160/- 03/01/26 02/01/27 J1282",
+                " 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150618.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150622.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150627.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150631.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per 9",
+                "01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150636.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150640.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150653.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150658.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150717.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150730.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL-TAXES)",
+                "PKD. USE BY BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150734.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150739.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150746.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150751.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150755.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150759.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150804.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150808.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150812.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150817.jpg",
+            "raw_text": [
+                "MRP ? (INCL.: OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150821.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 0/01/26 02/01/27 J12B2",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150826.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150830.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150834.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150840.jpg",
+            "raw_text": [
+                " 0.64 per g 01A6004800 L1",
+                "160/- 03/01/26 02/01/27 J1282",
+                "MRPP (INCL. OFALL TAXES) PKD. USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150853.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150858.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150903.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g.01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150907.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150911.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150916.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150920.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- (03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150924.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150929.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                " 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150934.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150938.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150942.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150946.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B2",
+                "7 0.64 pec 9 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150951.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103150955.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "6 02/01/27 J1202",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151000.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151007.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151012.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151016.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- (03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151028.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151033.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 00282",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151038.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                " 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151042.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B2",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151047.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151051.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151055.jpg",
+            "raw_text": [
+                "e 0.64 per q 01A60048",
+                "MRP ? (INCL. OF ALL TAXES)PKD.",
+                "160/- 03/01/26 02/01/27 J",
+                "2",
+                "USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151100.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151112.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151116.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1",
+                "."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151120.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151125.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1",
+                "−"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151129.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151134.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J1282",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151138.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 11282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151143.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151147.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "7 0.64 per\" g 01A600",
+                "160/- 03/01/26 02/01",
+                "PKD.",
+                "USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151151.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151157.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J12B2",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151201.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151206.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- (03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151210.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151222.jpg",
+            "raw_text": [
+                "-7 0.64 per g 01A60",
+                "160/- 03/01/26 02/01/27",
+                "MRP? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151228.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151303.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151318.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151325.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J12B2",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151334.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160- 03/01/26",
+                "012/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151347.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/-03/01/26",
+                "02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151351.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY BATCH NO.",
+                "02/01/27 J1282",
+                "160/-03/01/26",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151356.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151400.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151405.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J12B2",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151411.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151415.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151424.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "6 02/01/27 J1282",
+                "7 0.64 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151428.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151433.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "6 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151443.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151447.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151452.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                " 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151459.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151503.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151508.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL'TAXES)PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151514.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151521.jpg",
+            "raw_text": [
+                " 0.64 per g 01A6004800 L",
+                "160/- 03/01/26 02/01/27 J1282",
+                "MRP? (INCL. OF ALL TAXES) PKD. USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151525.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES) - PKD. USE BY BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151533.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151537.jpg",
+            "raw_text": [
+                "7 0.64 per g 01A600480 L1",
+                "160/- 03/01/26 02/01/27 J1282",
+                "MRPP (INCL. OFALL TAXES) PKD. USE BY",
+                "BATCH NO."
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151542.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151546.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J1282",
+                "7 064 per g 01A6004900 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151551.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26",
+                "02/01/27 J12B2",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151555.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 LI-",
+                "a"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151559.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1",
+                "C"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151604.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151608.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151612.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151618.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 064 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151817.jpg",
+            "raw_text": [
+                "MRP Z (INCL. OF ALL TAXES)",
+                "PKD.",
+                "USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 01282",
+                " 0.64 per g",
+                "01A6004900 L1",
+                "I"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151821.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151826.jpg",
+            "raw_text": [
+                "MRP ? (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151830.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151836.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151840.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004800 LI"
+            ],
+            "matches": []
+        },
+        {
+            "image": "IMG_20260103151845.jpg",
+            "raw_text": [
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 11282",
+                "7 0.64 per g 01A6004800 L1"
+            ],
             "matches": []
         }
     ]

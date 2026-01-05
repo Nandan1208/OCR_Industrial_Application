@@ -1,16 +1,16 @@
 {
     "mode": "single",
-    "engine": "EasyOCR",
+    "engine": "Model - 3",
     "regex": "",
     "results": [
         {
             "image": "single_image",
             "raw_text": [
-                "Date",
-                "Cp",
-                "L&eFzzi",
-                "Confytety}",
-                "0 CP"
+                "MRP 7 (INCL. OF ALL TAXES)",
+                "PKD. USE BY",
+                "BATCH NO.",
+                "160/- 03/01/26 02/01/27 J1282",
+                "7 0.64 per g 01A6004900 L1"
             ],
             "matches": []
         }
