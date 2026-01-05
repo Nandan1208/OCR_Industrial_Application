@@ -1,116 +1,103 @@
-# Industrial OCR Evaluation & Extraction Platform
+Industrial OCR & Barcode Extraction Platform
 
-A modular, configurable Industrial OCR application designed for manufacturing, packaging, and quality-inspection environments. The platform enables robust text recognition, custom preprocessing pipelines, and rule-based data extraction using multiple OCR engines—all through a unified interface.
+A modular, configurable industrial-vision application for manufacturing,
+packaging, and quality inspection. The platform provides robust OCR and
+barcode recognition, customizable preprocessing pipelines, and rule-based
+data extraction through a unified GUI.
 
-## Overview
+Overview
 
-Industrial OCR scenarios are challenging due to variable lighting, motion blur, camera noise, diverse fonts/orientations, and strict accuracy requirements for traceability data. This application addresses these challenges by combining:
+Industrial inspection presents challenges such as variable lighting, motion
+blur, camera noise, skewed orientations, diverse fonts, and strict accuracy
+requirements for traceability and compliance. This application addresses
+these issues with configurable preprocessing, multiple OCR/barcode engines,
+and rule-based extraction and validation.
 
-- Customizable preprocessing pipelines
-- Multiple OCR backends (Doctr, EasyOCR, PaddleOCR)
-- Regex-based structured data extraction
-- Batch and single-image processing
-- Config-driven execution for repeatability
+Key Features
 
-## Key Capabilities
+- Multi-engine OCR: DocTR (transformer-based), EasyOCR (lightweight),
+	PaddleOCR (multilingual/industrial). Engines are interchangeable for
+	benchmarking and production tuning.
+- Industrial barcode recognition: 1D (Code128, Code39, EAN, UPC) and 2D
+	(QR, DataMatrix). Supports single-image, batch, and live-camera scanning
+	with validation and visual feedback (Match / Mismatch / Not Detected).
+- Configurable preprocessing: brightness/contrast, gamma correction, CLAHE,
+	rotation/orientation correction, noise reduction, thresholding. Pipelines
+	are saved/loaded as JSON for repeatability.
+- Regex-based data extraction: configurable rules for lot/batch numbers,
+	manufacturing/expiry dates, product codes, and serial numbers. Designed
+	to integrate with MES/ERP systems.
+- Processing modes: single-image tuning, folder-level batch processing,
+	and live camera mode with visualization of OCR regions, extracted text,
+	and validation status.
+- Configuration-driven workflow for auditable, version-controlled inspection
+	pipelines.
 
-1. Multi-Engine OCR Support
+High-Level Architecture
 
-	- DocTR — Transformer-based, high accuracy
-	- EasyOCR — Lightweight and fast
-	- PaddleOCR — Strong multilingual and industrial support
+Image Input (Camera / Folder)
+→ Preprocessing Pipeline (Configurable)
+→ OCR Engine / Barcode Engine (Selectable)
+→ Text Detection / Barcode Decoding
+→ Regex-Based Extraction & Validation
+→ Visualization / JSON / CSV Output
 
-	Each engine can be switched seamlessly without changing application logic.
-
-2. Customizable Preprocessing Pipeline
-
-	- Brightness & contrast adjustment
-	- Gamma correction
-	- CLAHE (adaptive histogram equalization)
-	- Rotation & orientation correction
-	- Noise reduction & thresholding
-
-	All preprocessing steps can be saved and loaded via configuration files, enabling repeatable OCR runs across production batches.
-
-3. Regex-Based Intelligent Data Extraction
-
-	- Targeted extraction for Lot/Batch numbers, Manufacturing/Expiry dates, Product codes, Serial numbers, etc.
-	- Makes the system suitable for MES/ERP and traceability pipelines.
-
-4. Batch & Single Image Processing
-
-	- Process individual images for tuning and debugging
-	- Run folder-level batch OCR for production workloads
-	- Pause/resume batch execution
-	- Visualize OCR regions and matched patterns
-
-5. Configuration-Driven Workflow
-
-	- Save preprocessing + OCR settings to JSON configuration files
-	- Reload configurations to reproduce exact OCR behavior
-	- Enables auditable, version-controlled OCR pipelines
-
-## High-Level Architecture
-
-Flow:
-
-Image Input (Camera / Folder) → Preprocessing Pipeline (Configurable) → OCR Engine (Selectable) → Text Detection & Recognition → Regex-Based Data Extraction → Visualization / JSON / CSV Output
-
-## Tech Stack
+Tech Stack
 
 - Language: Python
 - GUI: PyQt
-- OCR Engines: DocTR, EasyOCR, PaddleOCR
+- OCR Engines: DocTR, EasyOCR, PaddleOCR (optional)
+- Barcode decoding: OpenCV + pyzbar (or equivalent)
 - Computer Vision: OpenCV
-- Acceleration: GPU (CUDA) support
-- Data Output: JSON, CSV
-- Configuration: JSON-based profiles
+- Acceleration: optional GPU (CUDA)
+- Data output: JSON, CSV
 
-## Designed for Industrial Use-Cases
+Use Cases
 
 - Manufacturing label inspection
-- Packaging verification
+- Packaging verification and anti-mixup checks
 - Batch & lot traceability
-- Expiry date validation
-- OCR model benchmarking
-- AI-assisted quality control
+- Expiry date and serial-number validation
+- OCR and barcode engine benchmarking
 
-## Design Philosophy
+Design Principles
 
-- Engine-agnostic — Swap OCR models without rewriting logic
-- Config-first — Production reproducibility matters
-- Visual debugging — See exactly what the model reads
-- Industrial robustness — Built for noisy real-world data
+- Engine-agnostic: swap OCR/barcode engines without changing application logic
+- Config-first: save reproducible pipelines for production
+- Visual debugging: inspect reads and validation results interactively
+- Industrial robustness: tuned for noisy, real-world data
 
-## Future Extensions (Planned)
+Planned Extensions
 
 - PLC / MES integration
-- REST API for remote OCR execution
-- Automated confidence scoring
-- Model ensemble voting
+- REST API for remote OCR/barcode execution
+- Automated confidence scoring and ensemble voting
 - Edge deployment support
 
-## License
+License
 
-This project is released under an open-source license (add your chosen license here).
+This project is released under an open-source license. Add your chosen
+license in this section.
 
-## Quick Start
+Quick Start
 
-Install dependencies (example):
+Install (example):
 
-```bash
 pip install PyQt5 opencv-python torch torchvision
-pip install python-doctr   # optional: Doctr OCR
-pip install easyocr        # optional: EasyOCR
-pip install paddlepaddle paddleocr  # optional: PaddleOCR (follow paddle install instructions)
-```
+# Optional OCR engines:
+pip install python-doctr    # DocTR (optional)
+pip install easyocr         # EasyOCR (optional)
+pip install paddlepaddle paddleocr  # PaddleOCR (optional)
+pip install pyzbar          # Barcode decoding
 
-Run the application:
+Run:
 
-```bash
 python main.py
-```
 
-Use the `OCR Configuration` tab to tune preprocess settings and run single/batch jobs. Use the `OCR Live` tab to load a preprocess JSON and camera config, then start live capture.
+Notes
 
-
+- Use the GUI to load and save JSON configuration profiles for preprocessing
+	and extraction rules.
+- Use the Barcode Module for single, batch, or live validations.
+- For production deployment, create and version your JSON profiles to
+	guarantee reproducibility.
