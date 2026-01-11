@@ -256,10 +256,6 @@ class PPOCREngine(BaseOCREngine):
 
         return img
 
-
-
-
-    
 class BarcodeEngine(BaseOCREngine):
     def __init__(self):
         super().__init__()

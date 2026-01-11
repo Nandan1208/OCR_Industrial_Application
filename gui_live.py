@@ -11,7 +11,8 @@ from PyQt5.QtCore import Qt, QThread, pyqtSignal
 
 from camera.mv_camera import MVCamera
 from ocr_engine import DoctrEngine, EasyOCREngine, PPOCREngine
-
+import os, csv
+from datetime import datetime
 
 # ==================================================
 # CAMERA THREAD
@@ -103,6 +104,12 @@ class OCRLiveGui(QWidget):
 
         self._build_ui()
         self._connect_signals()
+        self._init_logger()
+        self.log("LIVE OCR started")
+
+        self.live_results = []
+        self.frame_counter = 0
+        self.live_regex = ""
 
     # ==================================================
     # UI
@@ -196,7 +203,9 @@ class OCRLiveGui(QWidget):
     # CONFIG LOAD
     # ==================================================
     def load_preprocess_json(self):
-        path, _ = QFileDialog.getOpenFileName(self, "Load Preprocess JSON", "", "JSON (*.json)")
+        path, _ = QFileDialog.getOpenFileName(
+            self, "Load Preprocess JSON", "", "JSON (*.json)"
+        )
         if not path:
             return
 
@@ -210,7 +219,12 @@ class OCRLiveGui(QWidget):
             "Model - 3": PPOCREngine
         }.get(model, DoctrEngine)()
 
+        # ✅ load regex from JSON (if any)
+        self.live_regex = self.preprocess_cfg.get("regex", "").strip()
+
         self.log_console.append(f"OCR model loaded: {model}")
+
+
 
     def load_camera_cfg(self):
         path, _ = QFileDialog.getOpenFileName(self, "Load Camera Config", "", "Config (*.cfg *.ini *.config)")
@@ -249,6 +263,7 @@ class OCRLiveGui(QWidget):
             self.camera_worker.stop()
             self.camera.release()
             self.camera_worker = None
+            self.export_live_csv()
 
         if self.ocr_worker:
             self.ocr_worker.stop()
@@ -262,20 +277,60 @@ class OCRLiveGui(QWidget):
     # OCR RESULT HANDLING
     # ==================================================
     def handle_ocr_result(self, texts):
+        self.frame_counter += 1
+
         self.ocr_output.clear()
         self.ocr_output.append("\n".join(texts))
 
+        full_text = " ".join(texts)
+
+        # ---------- REGEX ----------
+        regex = self.live_regex
+        regex_ok = True
+        if regex:
+            regex_ok = bool(re.search(regex, full_text))
+
+        # ---------- COUNT ----------
         status = self.validate_char_count(texts)
         if status:
-            ok, actual, expected = status
-            if ok:
-                self.count_status_label.setText(f"COUNT OK ({actual}/{expected})")
-                self.count_status_label.setStyleSheet("color: green; font-weight:600;")
-            else:
-                self.count_status_label.setText(f"COUNT MISMATCH ({actual}/{expected})")
-                self.count_status_label.setStyleSheet("color: red; font-weight:600;")
+            count_ok, actual, expected = status
         else:
-            self.count_status_label.setText("Status: —")
+            count_ok = True
+            actual = ""
+            expected = ""
+
+        final_ok = regex_ok and count_ok
+
+        # ---------- UI ----------
+        if final_ok:
+            self.count_status_label.setText(
+                f"OK | chars={actual}/{expected}" if status else "OK"
+            )
+            self.count_status_label.setStyleSheet("color: green; font-weight:600;")
+        else:
+            self.count_status_label.setText(
+                f"NOT OK | chars={actual}/{expected}" if status else "NOT OK"
+            )
+            self.count_status_label.setStyleSheet("color: red; font-weight:600;")
+
+        # ---------- LOG ----------
+        self.log(
+            f"Frame {self.frame_counter} | "
+            f"chars={actual} | "
+            f"regex={'OK' if regex_ok else 'FAIL'} | "
+            f"result={'OK' if final_ok else 'NOT_OK'}"
+        )
+
+        # ---------- CSV (ALL FRAMES) ----------
+        self.live_results.append({
+            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "frame": self.frame_counter,
+            "detected_count": actual,
+            "expected_count": expected,
+            "regex": regex,
+            "regex_match": regex_ok,
+            "final_result": "OK" if final_ok else "NOT_OK"
+        })
 
     # ==================================================
     # COUNT LOGIC
@@ -297,7 +352,12 @@ class OCRLiveGui(QWidget):
         cleaned = re.sub(r'[^A-Za-z0-9]', '', "".join(tokens))
         actual = len(cleaned)
 
-        return actual <= expected, actual, expected
+        # ✅ SAME RULE AS BATCH / SINGLE
+        not_ok = actual < expected
+
+        return (not not_ok), actual, expected
+
+
 
     # ==================================================
     # DISPLAY FRAME
@@ -316,3 +376,43 @@ class OCRLiveGui(QWidget):
 
         if self.ocr_worker:
             self.ocr_worker.update_frame(frame)
+    
+    # ==================================================
+
+    def _init_logger(self):
+        os.makedirs("logs", exist_ok=True)
+        ts = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        self.log_file_path = os.path.join("logs", f"live_ocr_{ts}.txt")
+
+        with open(self.log_file_path, "w", encoding="utf-8") as f:
+            f.write(f"LIVE OCR LOG STARTED AT {ts}\n")
+            f.write("=" * 60 + "\n")
+
+
+    def log(self, message):
+        ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        line = f"[{ts}] {message}"
+
+        self.log_console.append(line)
+
+        with open(self.log_file_path, "a", encoding="utf-8") as f:
+            f.write(line + "\n")
+    
+    def export_live_csv(self):
+        if not self.live_results:
+            return
+
+        os.makedirs("exports", exist_ok=True)
+        ts = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        path = os.path.join("exports", f"live_ocr_{ts}.csv")
+
+        keys = self.live_results[0].keys()
+
+        with open(path, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=keys)
+            writer.writeheader()
+            writer.writerows(self.live_results)
+
+        self.log(f"📁 Live CSV exported: {path}")
+
+

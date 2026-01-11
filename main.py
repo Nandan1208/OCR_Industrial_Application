@@ -14,7 +14,6 @@ from gui_live import OCRLiveGui
 from gui_barcode import BarcodeGui
 from barcode_live_gui import BarcodeLiveGui
 
-
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -64,7 +63,7 @@ class MainWindow(QMainWindow):
         self.header.show()
         self.header.set_logo_visible(True)
         self.stack.setCurrentWidget(self.login_page)
-
+        
     # =====================================================
     # NAVIGATION
     # =====================================================
